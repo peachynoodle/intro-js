@@ -1,0 +1,50 @@
+In variables_and_math.html,
+
+1. Change the values of a and b to determine the following values:
+
+	14274 + 2303 = 16577
+	14274 - 2303 = 11971
+	14274 * 2303 = 32873022
+	14274 / 2303 = 6.198002605297438
+
+2. What is the value of 2^18? (The ^ operator does not mean exponents in JavaScript.
+   Use the Math.pow function instead.) 262144
+
+3. Change the name and age variables to represent yourself. Add a third variable city
+   which stores the city where you were born. Then write a sentence such as "Jon is 44
+   years old. He was born in Chicago."
+
+
+In events.html,
+
+4. Add a second prompt to the greet function so that it also asks for your age. Then
+   have the function write a sentence like "Hello, Jon. I see you are 42 years old."
+   to the message paragraph.
+
+5. Add a button that is connected to a triangleArea function. Then write a triangleArea
+   function in functions.js that prompts the user for both the base and height of the
+   triangle and then calculates the area. Write the result in a complete sentence to
+   the answer div.
+
+6. Add a button that is connected to a circumference function. Then write a circumference
+   function in functions.js that prompts the user for both the radius of a circle and
+   then calculates the circumference. Write the result in a complete sentence to the
+   answer div. Use the Math.pi constant to get an accurate value for pi.
+
+7. Explain the difference between string and numeric values.
+String values can contain letters, numbers, and other characters. Numeric variables can only contain numbers.
+You have to put string values in quotes, but you do not have to do the same for numeric variables.
+
+8. What indicates a line is a comment in JavaScript?
+// single-line comment
+/* text */
+
+9. Make a button that changes the font family for the message div. Use the changeColor
+   function as an example.
+
+10. List 5 events that JavaScript can respond to other than onload and onclick.
+1. onmouseover
+2. ondblclick
+3. onkeydown
+4. onselect
+5. onerror
